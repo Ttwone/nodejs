@@ -6,7 +6,7 @@
     "server": "nodemon backend/server.js"
   },
   "author": "Rayhan",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "colors": "^1.4.0",

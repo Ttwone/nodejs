@@ -1,11 +1,9 @@
 const express = require ('express');
 const router = express.Router();
-const port = 5000
+const {getGoals,setGoal} = require("../controllers/goalControllers")
 
-router.get('/', (req,res) => {
-    res.status(200).json({
-        name: 'Rayhan'
-    })
-})
+router.get('/',getGoals)
+
+router.get('/',setGoal)
 
 module.exports = router
